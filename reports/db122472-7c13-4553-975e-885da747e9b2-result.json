@@ -1,0 +1,6 @@
+{"name": "Login Validation",
+  "status": "passed",
+  "steps": [{"name": "Given user is on loginpage",
+    "status": "passed",
+    "start": 1542637245481,
+    "stop": 1542637257979}, {"name": "When user enters valid username and password", "status": "passed", "start": 1542637257979, "stop": 1542637258229}, {"name": "And clicks on login button", "status": "passed", "start": 1542637258229, "stop": 1542637259729}, {"name": "Then user navigates to dashboardpage", "status": "passed", "start": 1542637259730, "stop": 1542637259767}], "start": 1542637245479, "stop": 1542637259767, "uuid": "da5681c2-a950-4abc-906c-fc4ded5d016c", "historyId": "7d0e4c9f86a2299fb2e83e59e4da0b3c", "labels": [{"name": "severity", "value": "normal"}, {"name": "feature", "value": "Calculator"}, {"name": "framework", "value": "behave"}, {"name": "language", "value": "cpython3"}]}

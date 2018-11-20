@@ -1,0 +1,13 @@
+<testsuite errors="0" failures="0" hostname="INBGQT-LT-0295" name="calculator.Calculator" skipped="0" tests="1" time="17.196752" timestamp="2018-11-20T12:47:07.423787"><testcase classname="calculator.Calculator" name="Login Validation" status="passed" time="17.196752"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login Validation
+    Given user is on loginpage ... passed in 13.680s
+    When user enters valid username and password ... passed in 0.365s
+    And clicks on login button ... passed in 3.119s
+    Then user navigates to dashboardpage ... passed in 0.032s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

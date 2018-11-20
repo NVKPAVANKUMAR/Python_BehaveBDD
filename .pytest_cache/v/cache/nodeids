@@ -1,0 +1,4 @@
+[
+  "calculator_automation.py::TestKeyboardMethods::test_open_notepad",
+  "calculator_automation.py::TestKeyboardMethods::test_write_text"
+]
