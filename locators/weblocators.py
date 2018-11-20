@@ -5,4 +5,4 @@ class WebLocators:
     login_button_id = 'loginbtn'
 
     #Dashboardpage
-    dashboard_title_text = "//*[.='Sandbox']"
+    dashboard_title_text = "//*[.='Corso Moodle']"

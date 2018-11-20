@@ -34,7 +34,7 @@ def step_impl(context):
 @then(u'user navigates to dashboardpage')
 def step_impl(context):
     dashboard_page = DashboardPage(context.browser)
-    dashboard_page.assert_title_text('Sandbox')
+    dashboard_page.assert_title_text('Corso Moodle')
 
 
 if __name__ == '__main__':
