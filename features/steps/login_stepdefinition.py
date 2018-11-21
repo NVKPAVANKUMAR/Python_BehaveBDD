@@ -36,7 +36,7 @@ def step_impl(context):
 def step_impl(context):
     try:
         dashboard_page = DashboardPage(context.browser)
-        dashboard_page.assert_title_text('Corso Moodle')
+        dashboard_page.assert_title_text(parse_config('Credentials', 'assert_text'))
     except NoSuchElementException:
             print("Login Failed")
 

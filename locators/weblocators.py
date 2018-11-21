@@ -5,4 +5,4 @@ class WebLocators:
     login_button_id = 'loginbtn'
 
     #Dashboardpage
-    dashboard_title_text = "//*[.='Corso Moodle']"
+    dashboard_title_text = '//a[@href="https://demo.moodle.net"]/child::*'
