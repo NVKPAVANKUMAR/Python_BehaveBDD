@@ -1,7 +1,5 @@
 from behave import given, when, then
-from selenium import webdriver
 import configparser
-
 from pages.login import LoginPage
 from pages.dashboard import DashboardPage
 import unittest

@@ -1,8 +1,6 @@
 from behave import given, when, then
 import configparser
-from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-
 from pages.login import LoginPage
 from pages.dashboard import DashboardPage
 import unittest
@@ -38,7 +36,7 @@ def step_impl(context):
         dashboard_page = DashboardPage(context.browser)
         dashboard_page.assert_title_text(parse_config('Credentials', 'assert_text'))
     except NoSuchElementException:
-            print("Login Failed")
+        print("Login Failed")
 
 
 if __name__ == '__main__':

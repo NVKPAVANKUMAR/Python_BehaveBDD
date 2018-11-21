@@ -4,5 +4,5 @@ class WebLocators:
     password_editbox_id = 'password'
     login_button_id = 'loginbtn'
 
-    #Dashboardpage
+    # Dashboardpage
     dashboard_title_text = '//a[@href="https://demo.moodle.net"]/child::*'
