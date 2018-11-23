@@ -1,6 +1,6 @@
 Feature: Login
 
-
+  @web
   Scenario Outline: Do Login
     Given user is on Demologinpage
     When user enters valid <username> and <password>

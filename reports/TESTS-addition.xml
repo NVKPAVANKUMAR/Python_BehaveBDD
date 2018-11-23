@@ -1,0 +1,37 @@
+<testsuite errors="0" failures="0" hostname="INBGQT-LT-0295" name="addition.Calculator" skipped="0" tests="3" time="0.007015" timestamp="2018-11-21T20:00:36.461740"><testcase classname="addition.Calculator" name="Add any two numbers -- @1.1 " status="passed" time="0.002027"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Add any two numbers -- @1.1 
+    Given I have entered 5 into the calculator ... passed in 0.001s
+    And I have also entered 2 into the calculator ... passed in 0.001s
+    When I press add ... passed in 0.000s
+    Then the sum should be 7 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="addition.Calculator" name="Add any two numbers -- @1.2 " status="passed" time="0.002959"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Add any two numbers -- @1.2 
+    Given I have entered 4 into the calculator ... passed in 0.001s
+    And I have also entered 8 into the calculator ... passed in 0.001s
+    When I press add ... passed in 0.001s
+    Then the sum should be 12 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="addition.Calculator" name="Add any two numbers -- @1.3 " status="passed" time="0.002029"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Add any two numbers -- @1.3 
+    Given I have entered 100 into the calculator ... passed in 0.000s
+    And I have also entered 200 into the calculator ... passed in 0.001s
+    When I press add ... passed in 0.001s
+    Then the sum should be 300 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,49 @@
+<testsuite errors="0" failures="0" hostname="INBGQT-LT-0295" name="caluclator.Calculator" skipped="0" tests="3" time="0.005957" timestamp="2018-11-23T17:22:41.395183"><testcase classname="caluclator.Calculator" name="perform any arithmetic operation on  two numbers -- @1.1 " status="passed" time="0.001995"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: perform any arithmetic operation on  two numbers -- @1.1 
+    Given I have entered 5 into the calculator ... passed in 0.000s
+    And I have also entered 2 into the calculator ... passed in 0.000s
+    When I press addition ... passed in 0.002s
+    Then then result should be 7 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+7
+
+]]>
+</system-out></testcase><testcase classname="caluclator.Calculator" name="perform any arithmetic operation on  two numbers -- @1.2 " status="passed" time="0.001993"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: perform any arithmetic operation on  two numbers -- @1.2 
+    Given I have entered 4 into the calculator ... passed in 0.000s
+    And I have also entered 8 into the calculator ... passed in 0.000s
+    When I press multiplication ... passed in 0.001s
+    Then then result should be 32 ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+32
+
+]]>
+</system-out></testcase><testcase classname="caluclator.Calculator" name="perform any arithmetic operation on  two numbers -- @1.3 " status="passed" time="0.001969"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: perform any arithmetic operation on  two numbers -- @1.3 
+    Given I have entered 100 into the calculator ... passed in 0.001s
+    And I have also entered 200 into the calculator ... passed in 0.000s
+    When I press division ... passed in 0.001s
+    Then then result should be 2 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+2.0
+
+]]>
+</system-out></testcase></testsuite>

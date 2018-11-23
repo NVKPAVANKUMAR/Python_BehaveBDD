@@ -1,5 +1,5 @@
 from behave import given, when, then
-from utility.calculator import Calculator
+from utility.addition import Calculator
 
 
 @given(u'I have entered {num1:d} into the calculator')
@@ -12,14 +12,12 @@ def step_impl(context, num2):
     context.num2 = num2
 
 
-@when(u'I press {operation}')
-def step_impl(context, operation):
-    context.operation = operation
+@when(u'I press add')
+def step_impl(context):
     context.calc = Calculator()
-    context.result = context.calc.select_function(context.operation, context.num1, context.num2)
+    context.result = context.calc.add(context.num1, context.num2)
 
 
-@then(u'then result should be {result:d}')
+@then(u'the sum should be {result:d}')
 def step_impl(context, result):
-    print(context.result)
     assert context.result == result
