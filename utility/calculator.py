@@ -1,6 +1,8 @@
 class Calculator(object):
 
-    def select_function(self, op, num1, num2):
+    @staticmethod
+    def select_function(op, num1, num2):
+
         if op == "addition":
             return num1 + num2
 
