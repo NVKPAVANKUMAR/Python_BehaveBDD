@@ -1,0 +1,56 @@
+{
+  "name": "Login Validation",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "Given user is on loginpage",
+      "status": "passed",
+      "start": 1544178558911,
+      "stop": 1544178570190
+    },
+    {
+      "name": "When user inputs valid username and password",
+      "status": "passed",
+      "start": 1544178570190,
+      "stop": 1544178570607
+    },
+    {
+      "name": "And clicks on signin button",
+      "status": "passed",
+      "start": 1544178570607,
+      "stop": 1544178573280
+    },
+    {
+      "name": "Then user navigates to Demodashboardpage",
+      "status": "passed",
+      "start": 1544178573281,
+      "stop": 1544178573369
+    }
+  ],
+  "start": 1544178558910,
+  "stop": 1544178573369,
+  "uuid": "797cad49-892e-45d3-a726-55af9c14b0d1",
+  "historyId": "63a20303034fe1d61e5711312858c84d",
+  "labels": [
+    {
+      "name": "tag",
+      "value": "browser"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "static login"
+    },
+    {
+      "name": "framework",
+      "value": "behave"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    }
+  ]
+}

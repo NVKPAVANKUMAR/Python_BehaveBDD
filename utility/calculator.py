@@ -1,4 +1,4 @@
-class Calculator(object):
+class Calculator:
 
     @staticmethod
     def select_function(op, num1, num2):

@@ -1,11 +1,13 @@
-<testsuite errors="0" failures="0" hostname="INBGQT-LT-0295" name="staticlogin.static login" skipped="0" tests="1" time="13.700026" timestamp="2018-11-21T19:18:00.960186"><testcase classname="staticlogin.static login" name="Login Validation" status="passed" time="13.700026"><system-out>
+<testsuite errors="0" failures="0" hostname="INBGQT-LT-0295" name="staticlogin.static login" skipped="0" tests="1" time="10.569588" timestamp="2018-12-07T15:53:24.304376"><testcase classname="staticlogin.static login" name="Login Validation" status="passed" time="10.569588"><system-out>
 <![CDATA[
 @scenario.begin
+
+  @browser
   Scenario: Login Validation
-    Given user is on loginpage ... passed in 10.095s
-    When user inputs valid username and password ... passed in 0.538s
-    And clicks on signin button ... passed in 3.034s
-    Then user navigates to Demodashboardpage ... passed in 0.033s
+    Given user is on loginpage ... passed in 7.913s
+    When user inputs valid username and password ... passed in 0.293s
+    And clicks on signin button ... passed in 2.321s
+    Then user navigates to Demodashboardpage ... passed in 0.042s
 
 @scenario.end
 --------------------------------------------------------------------------------
